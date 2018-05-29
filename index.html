@@ -147,6 +147,17 @@
 				
 				// Loop the presentation
 				loop: true,
+
+				// Number of milliseconds between automatically proceeding to the
+				// next slide, disabled when set to 0, this value can be overwritten
+				// by using a data-autoslide attribute on your slides
+				autoSlide: 500,
+
+				// Stop auto-sliding after user input
+				autoSlideStoppable: false,
+
+				// Use this method for navigation when auto-sliding
+				autoSlideMethod: Reveal.navigateNext,				
 				
 				menu: {
 					// Specifies which side of the presentation the menu will 
